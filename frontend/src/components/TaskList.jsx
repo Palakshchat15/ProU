@@ -75,7 +75,7 @@ export default function TaskList({ tasks = [], onUpdated }) {
                     onClick={() => toggleStatus(t)}
                     className="px-3 py-1 rounded bg-green-600 text-white text-sm"
                   >
-                    {t.status === "done" ? "Mark pending" : "Mark done"}
+                    {t.status === "Done" ? "Mark pending" : "Mark done"}
                   </button>
 
                   <button
