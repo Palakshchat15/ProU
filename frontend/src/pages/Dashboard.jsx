@@ -81,7 +81,7 @@ export default function Dashboard() {
 
               {(() => {
                 const total = tasks.length;
-                const completed = tasks.filter(t => t.status === "done").length;
+                const completed = tasks.filter(t => t.status === "Done").length;
 
                 return (
                   <div className="text-2xl font-semibold">
